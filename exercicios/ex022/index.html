@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando imagens em elementos de caixas!</title>
+    <style>
+
+        body {
+            background-color: lightblue;
+            margin: 0;
+        }
+
+        #main1 {
+            text-align: center;
+            width: 100%;
+            height: 330px;
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+
+        .div{
+            border: 3px solid black;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px red;
+            transform: translateY(3%);
+        }
+
+        #div1 {
+            background-color: lightgreen;
+        }
+
+        #div2 {
+            background-image: linear-gradient(to top, red, pink, lightpink);
+        }
+
+        #div3 {
+            background-image: url('imagens/pattern003.png');
+        }
+
+    </style>
+</head>
+<body>
+    
+    <main id="main1" >
+        <div class="div" id="div1"></div>
+        <div class="div" id="div2"></div>
+        <div class="div" id="div3"></div>
+    </main>
+</body>
+</html>
