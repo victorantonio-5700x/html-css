@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" >
+        <fieldset>
+            <legend>Qual Você Prefere</legend>
+
+            <input type="radio" name="cantor" id="itue" value="matue" checked>
+            <label for="itue">Matue</label>
+
+            <input type="radio" name="cantor" id="itet" value="teto">
+            <label for="itet">Teto</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Musicas Do Matue</legend>
+
+                <input type="checkbox" name="maq" id="imaq">
+                <label for="imaq">Maquina Do Tempo</label>
+                <br>
+
+                <input type="checkbox" name="ken" id="iken">
+                <label for="iken">Kenny G</label>
+                <br>
+
+                <input type="checkbox" name="gor" id="igor">
+                <label for="igor">Gorila Roxo</label>
+                <br>
+
+                <input type="checkbox" name="cel" id="icel">
+                <label for="icel">Celine</label>
+                <br>
+
+                <input type="checkbox" name="cap" id="icap">
+                <label for="icap">Capitão De Praia</label>
+
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>

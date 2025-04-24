@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Trabalhado com Formularios</h1>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Em que Ano Você Nasceu</legend>
+
+            <p>
+                <label for="iano">Insira: </label>
+                <input type="number" name="ano" id="iano" min="1900" max="2025" required oninput="calcidade()" >
+            </p>
+
+            <p>
+                <label for="iida">Idade: </label>
+                <output id="iida">0</output>
+            </p>
+        </fieldset>
+
+
+
+
+        <p>
+            <input type="submit" value="Envair">
+            <input type="reset" value="Resetar">
+        </p>
+    </form>
+
+    <script>
+        function calcidade () {
+            let atual = new Date().getFullYear()
+            iida.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
+</body>
+</html>

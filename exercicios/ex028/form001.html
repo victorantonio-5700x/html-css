@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Trabalhando com Formularios</h1>
+    <form action="cadastro.php" method="post">
+        <label for="idata">Data</label>
+        <input type="date" name="data" id="idata" required>
+        <br>
+        <label for="iemail">Email</label>
+        <input type="email" name="email" id="iemail" required maxlength="30">
+        <br>
+        <label for="isenha">Senha</label>
+        <input type="password" name="Senha" id="isenha" required maxlength="20" minlength="5">
+        <br>
+        <label for="file">Data</label>
+        <input type="file" name="file" id="ifile">
+        <br>
+        <label for="inumber"></label>
+        <input type="number" name="number" id="inumber" max="50" min="5">
+        <br>
+
+        <input type="button" value="botao">
+        
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>

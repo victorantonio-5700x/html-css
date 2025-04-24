@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* CSS PARA IMPRESSORAS */
+
+header > h1 {
+    text-align: center;
+}
+
+menu {
+    display: none;
+}
+
+article::after {
+    content: 'Essa impressão foi feita por Victor';
+}
+
+article {
+    background-color: rgb(162, 119, 202);
+}
+
