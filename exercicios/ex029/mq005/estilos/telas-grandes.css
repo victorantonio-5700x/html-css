@@ -1,0 +1,9 @@
+@media screen and (max-width=900px) {
+    #burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+}
