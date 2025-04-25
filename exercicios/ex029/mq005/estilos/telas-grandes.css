@@ -1,9 +1,26 @@
-@media screen and (max-width=900px) {
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
     #burguer {
         display: none;
     }
 
     menu {
         display: block;
+        
+    }
+
+    menu > ul > li {
+        display: inline-block;
+        padding: 0px 0px 5px 5px;
+    }
+
+    menu a {
+        border-radius: 5px;
+        border: 1px solid white;
+    }
+
+    main {
+        width: 768px;
     }
 }
