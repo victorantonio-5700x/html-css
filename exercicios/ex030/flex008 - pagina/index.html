@@ -8,28 +8,39 @@
 </head>
 <body>
     <main>
-        <article>
             <header>
                 <h1>Exemplo de Conteúdo Flexível</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab ratione rem, ipsam voluptate voluptas ipsa. Adipisci dolor perspiciatis delectus molestiae atque laudantium incidunt itaque quas? Tempore veniam sint eligendi voluptatibus.</p>
             </header>
 
-            <section>
-                <!--Imagem-->
-                <h2>Elemento Media->Text</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquid perferendis deserunt nesciunt tempore, asperiores qui sit voluptatum dolorem vitae eligendi harum, quisquam ab cupiditate! Praesentium amet aspernatur consequuntur assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet beatae, reprehenderit dolores sequi cumque esse id, laborum omnis porro unde! Voluptatem in quibusdam harum sapiente quo obcaecati labore explicabo!</p>
+            <section class="section_flex" >
+                <article class="media-text" >
+                    <div class="text">
+                        <h2>Elemento Media->Text</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquid perferendis deserunt nesciunt tempore, asperiores qui sit voluptatum dolorem vitae eligendi harum, quisquam ab cupiditate! Praesentium amet aspernatur consequuntur assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eveniet beatae, reprehenderit dolores sequi cumque esse id, laborum omnis porro unde! Voluptatem in quibusdam harum sapiente quo obcaecati labore explicabo!</p>
+                    </div>
+                    <div class="media" >
+                        <img src="imgflexbox-removebg-preview.png" alt="Lobo">
+                        <!--Imagem-->
+                    </div>
+                </article>
+                <article class="text-media">
+                    <div class="text" >
+                        <h2>Elemento Text->Media</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, eligendi distinctio! Modi similique et totam architecto enim, fugiat omnis minima. Quasi ad culpa reiciendis architecto suscipit molestiae corporis inventore unde?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sequi quae eos itaque voluptatem possimus aperiam? Unde quibusdam aspernatur cupiditate culpa quis odio, aliquam blanditiis. Amet maxime reiciendis natus voluptatem.</p>
+                    </div>
+                    <div id="iframe" class="media" >
+                        <!--Iframe do YouTube-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VBGMnFHRqcY?si=BgXD_gBbIy5Gq-F9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </article>
             </section>
+
             <section>
-                <h2>Elemento Text->Media</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, eligendi distinctio! Modi similique et totam architecto enim, fugiat omnis minima. Quasi ad culpa reiciendis architecto suscipit molestiae corporis inventore unde?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sequi quae eos itaque voluptatem possimus aperiam? Unde quibusdam aspernatur cupiditate culpa quis odio, aliquam blanditiis. Amet maxime reiciendis natus voluptatem.</p>
-
-                <!--Iframe do YouTube-->
+                <h3>Conteúdo Normal</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid ea laboriosam, nam suscipit ipsam necessitatibus excepturi molestiae iusto doloribus obcaecati corrupti! Sint ex eos sequi enim deleniti odit aliquid est?</p>
             </section>
-
-            <h3>Conteúdo Normal</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid ea laboriosam, nam suscipit ipsam necessitatibus excepturi molestiae iusto doloribus obcaecati corrupti! Sint ex eos sequi enim deleniti odit aliquid est?</p>
-        </article>
     </main>
 </body>
 </html>
